@@ -1,0 +1,24 @@
+{
+  "phrases": [
+    "Your resume is selected",
+    "respond within 10 mins",
+    "urgent",
+    "immediately",
+    "UPI refund",
+    "government reward",
+    "income tax notice",
+    "congratulations",
+    "job confirmed",
+    "click the link",
+    "boss said",
+    "verify your bank"
+  ],
+  "entities": [
+    "Google",
+    "SBI",
+    "IRCTC",
+    "Income Tax",
+    "Paytm",
+    "RBI"
+  ]
+}
