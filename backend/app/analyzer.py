@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 from transformers import pipeline
 
+
 scam_data = json.loads(Path(__file__).with_name("scam_patterns.json").read_text())
 scam_phrases = scam_data["phrases"]
 scam_entities = scam_data["entities"]
@@ -37,4 +38,5 @@ def analyze_message(text: str) -> dict:
         "confidence": round(score, 2),
         "entities": entities,
         "flags": flags
+        "model_used": "distilbert-base-uncased-finetuned-sst-2-english"
     }
